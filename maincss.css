@@ -1,0 +1,60 @@
+div.block1 {
+	 width: 100%; 
+	 height: 10%;
+	 border: 1px solid black;
+	 background: #76ff7a;
+
+}
+div.block2 {
+	width: 20%;
+	height: 200%;
+	border: 1px solid black;
+	background: #ffa500;
+	float: right;
+}
+div.block3 {
+	width: 80%;
+	height: 200%;
+	border: 1px solid black;
+	background: #ffffff;
+}
+div.block4 {
+	width: 80%;
+	height: 98%;
+	
+	border: 0px solid black;
+	background: #ffffff;
+}
+
+table {
+	margin-top: 270px;
+}
+
+button {
+	width: 150px;
+	height: 60px; 
+	background-color:#76ff7a;
+	
+	/* эта пуппа нужная для анимации, данный параметр делает 
+	первоначальное сглаживание кнопки */
+	border-radius: 5px;
+	transition: border-radius 0.5s ease-in;
+	float: left;
+}
+
+button:hover {
+			background: #76ff7a;
+			/* а вот этот уже делает анимацию сглаживания до нужного */
+			border-radius: 25px;
+			
+}
+.rotate-right {
+    transform: rotate(90deg);
+}
+
+i {
+	font-size: 20px;
+}
+li {
+	align-items: left;
+}
